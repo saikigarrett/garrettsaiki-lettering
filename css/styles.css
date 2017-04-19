@@ -1,0 +1,48 @@
+/*Styling*/
+@import url('https://fonts.googleapis.com/css?family=Ranga');
+
+@import url('https://fonts.googleapis.com/css?family=League+Script|Ranga');
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|League+Script|Ranga');
+
+
+body {
+    background: black;
+}
+
+h1 {
+    font-family: 'League Script', cursive;
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color:aqua;
+}
+
+h1 span:nth-child(odd) {
+    color: white;
+}
+
+h2 {
+    font-family: 'Ranga', cursive;
+    text-transform:uppercase;
+    font-size: 3em;
+    color:greenyellow;
+}
+
+h2 span:nth-child(even) {
+    color:mediumpurple
+}
+
+h3 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color:white;
+    font-size: 3em;
+}
+
+h3 span:nth-child(even) {
+  color:#9c2326;
+}
+
+span.word7{
+  color:orange;
+}
